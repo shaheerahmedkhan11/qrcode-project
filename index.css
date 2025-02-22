@@ -15,7 +15,7 @@
 }
 
 /* GENERAL STYLES */
-body {
+body main{
   background-color: var(--Slate-300);
   font-family: "Outfit", Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
@@ -27,6 +27,7 @@ body {
   align-content: center;
   min-height: 100vh;
 }
+
 p {
   margin: 1rem 0;
   text-align: center;
