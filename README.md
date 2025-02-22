@@ -45,8 +45,7 @@ This is a simple **QR Code Component** built using **HTML** and **CSS**, inspire
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/shaheerahmedkhan11/qrcode-project)
 
 ### Built with
 
