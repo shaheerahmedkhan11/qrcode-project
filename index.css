@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* CSS RESET  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* COLORS*/
+  --White: hsl(0, 0%, 100%);
+  --Slate-300: hsl(212, 45%, 89%);
+  --Slate-500: hsl(216, 15%, 48%);
+  --Slate-900: hsl(218, 44%, 22%);
+}
+
+/* GENERAL STYLES */
+body {
+  background-color: var(--Slate-300);
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+p {
+  margin: 1rem 0;
+  text-align: center;
+}
+figure {
+  background-color: var(--White);
+  padding: 1rem;
+  margin: auto;
+  width: 220px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#img-el {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--Slate-500);
+  font-weight: lighter;
+}
+
+/* MEDIA QUERIES */
+
+/* For Large Screens */
+@media (min-width: 1440px) {
+  body {
+    margin: 4rem;
+  }
+  figure {
+    width: 300px;
+    padding: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* For Small Screens */
+
+@media (max-width: 375px) {
+  body {
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+  figure {
+    width: 90%;
+    padding: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
